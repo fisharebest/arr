@@ -17,20 +17,19 @@
 
 declare(strict_types=1);
 
-namespace Fisharebest\Webtrees;
+namespace Fisharebest;
 
 use ArrayObject;
 use Closure;
 
 use function array_filter;
 use function array_map;
-use function array_merge;
 use function array_unique;
 use function array_values;
 use function uasort;
 
 /**
- * Arrays
+ * Fluent arrays
  *
  * @template TKey of array-key
  * @template TValue
