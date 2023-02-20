@@ -1,0 +1,25 @@
+{
+    "name": "fisharebest/arr",
+    "description": "Fluent arrays",
+    "keywords": [
+        "array"
+    ],
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Fisharebest\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fisharebest\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "8.1 - 8.2"
+    },
+    "require-dev": {
+        "php-coveralls/php-coveralls": "2.5.3",
+        "phpunit/phpunit": "10.0.7"
+    }
+}
